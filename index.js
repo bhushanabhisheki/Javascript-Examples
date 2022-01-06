@@ -1,1 +1,1 @@
-console.log('this is a test1');
+import './arrays.js';
