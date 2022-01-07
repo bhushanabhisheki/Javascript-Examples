@@ -20,4 +20,12 @@ const arrayOfarray = [
   [3, 5],
   [5, 6],
 ];
-console.log(arrayOfarray); // [Array[2], Array[2], Array[2]]
+console.log(arrayOfarray); // [Array[2], Array[2], Array[2]
+
+for (const data of arrayOfarray) {
+  for (const points of data) {
+    console.log(points); // 1 2 3 4 5 6
+  }
+}
+
+//index of an array starts from 0 and length is maxindex+1
