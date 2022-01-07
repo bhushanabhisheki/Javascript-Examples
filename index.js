@@ -1,1 +1,2 @@
-import './createarrays.js';
+//import './createarrays.js';
+import './datatypesinarray';
